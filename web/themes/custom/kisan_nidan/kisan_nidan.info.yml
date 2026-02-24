@@ -1,24 +1,23 @@
 name: Kisan Nidan
 type: theme
-base theme: false
-description: 'A custom theme for Kisan Nidan project.'
-core_version_requirement: ^9 || ^10
+base theme: bootstrap5
+description: 'A custom Bootstrap 5 dependent theme for Kisan Nidan project.'
+core_version_requirement: ^10.1 || ^11.0
 package: Custom
-
-regions:
-  header: Header
-  primary_menu: Primary Menu
-  secondary_menu: Secondary Menu
-  highlighted: Highlighted
-  help: Help
-  content: Content
-  sidebar_first: Sidebar First
-  sidebar_second: Sidebar Second
-  footer: Footer
-  breadcrumb: Breadcrumb
 
 libraries:
   - kisan_nidan/global-styling
+
+regions:
+  header: Header
+  nav_branding: 'Navigation branding region'
+  nav_main: 'Main navigation region'
+  nav_additional: 'Additional navigation region'
+  breadcrumb: Breadcrumbs
+  content: 'Main content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer
 
 features:
   - logo
