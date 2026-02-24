@@ -1,0 +1,28 @@
+name: Kisan Nidan
+type: theme
+base theme: false
+description: 'A custom theme for Kisan Nidan project.'
+core_version_requirement: ^9 || ^10
+package: Custom
+
+regions:
+  header: Header
+  primary_menu: Primary Menu
+  secondary_menu: Secondary Menu
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  sidebar_first: Sidebar First
+  sidebar_second: Sidebar Second
+  footer: Footer
+  breadcrumb: Breadcrumb
+
+libraries:
+  - kisan_nidan/global-styling
+
+features:
+  - logo
+  - favicon
+  - node_user_picture
+  - comment_user_picture
+  - search_box
